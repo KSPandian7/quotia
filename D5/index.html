@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="x-type" href="sq.png">
+    <title>quotia</title>
+</head>
+<body>
+    <center>
+        <img src="quotia.png" class="img" alt="logo">
+    </center>
+    <br>
+    <div class="welcome"></div>
+    <button id="loop">Quotes</button>
+    <p class="text">Nothing is Impossible, The word itself says 'I'm Possible.'</p>
+    <footer>Developer - KULASEKARAPANDIAN K</footer>
+    <script>
+        // Redirection function
+        function redirectToSecondPage() {
+            window.location.href = "second.html";
+        }
+        
+        // Attach event listener to the button
+        document.getElementById("loop").addEventListener("click", redirectToSecondPage);
+    </script>
+</body>
+</html>
